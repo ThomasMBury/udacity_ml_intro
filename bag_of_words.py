@@ -8,6 +8,9 @@ Created on Thu Dec 27 21:11:30 2018
 
 
 from sklearn.feature_extraction.text import CountVectorizer
+from nltk.corpus import stopwords
+from nltk.stem.snowball import SnowballStemmer
+
 
 vectorizer = CountVectorizer()
 
@@ -19,4 +22,13 @@ string_list = [string1, string2, string3]
 
 bag_of_words = vectorizer.fit(string_list)
 bag_of_words = vectorizer.transform(string_list)
+
+
+# Count stopwords
+sw = stopwords.words("english")
+
+# Stemming
+stemmer = SnowballStemmer('english')
+
+
 
