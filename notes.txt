@@ -7,5 +7,9 @@ Punctuation - removed
 Pickle - python way of dumping data into storage (can be of any python format e.g. dictionary)
 
 
+Tf-Idf representation (term frequency)
+Idf (inverse document frequency) - assign higher rating to words that are rare among the corpus
+	- they will good at distinguishing the document from the rest of the corpus
+	- perhaps contain the most important information (with regards to classifying the document)
 
-Document-inverse frequency - assign higher rating to rare words among corpus
+
