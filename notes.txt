@@ -1,0 +1,11 @@
+## Text learning
+
+Bag of words (from sklearn) - order doesn't matter - obtain frequency of each word in object (document, email, article etc.)
+Stemming - obtain the root of the word - reduces the dimensionality of the problem without losing meaning
+Stopwords - words that contain little information (e.g the, I, you, of) - can obtain from package nltk
+Punctuation - removed
+Pickle - python way of dumping data into storage (can be of any python format e.g. dictionary)
+
+
+
+Document-inverse frequency - assign higher rating to rare words among corpus
