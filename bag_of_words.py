@@ -11,6 +11,8 @@ from sklearn.feature_extraction.text import CountVectorizer
 from nltk.corpus import stopwords
 from nltk.stem.snowball import SnowballStemmer
 
+import nltk
+nltk.download('stopwords')
 
 vectorizer = CountVectorizer()
 
@@ -29,6 +31,4 @@ sw = stopwords.words("english")
 
 # Stemming
 stemmer = SnowballStemmer('english')
-
-
 
